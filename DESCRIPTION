@@ -1,0 +1,36 @@
+Package: censorData
+Title: Data Generation with Censoring Schemes for Lifetime Data Analysis
+Version: 0.1.0
+Author: 
+    Coşkun Kuş [cre,ctb] <coskunkus@gmail.com>
+        (<https://www.selcuk.edu.tr/Person/Detail/coskun>),
+    Sümeyra Sert [aut,ctb] <sumeyra.sert@selcuk.edu.tr>
+        (<https://www.selcuk.edu.tr/Person/Detail/sumeyra.sert>),
+    Yunus Akdoğan [aut,ctb] <yakdogan@selcuk.edu.tr>
+        (<https://www.selcuk.edu.tr/Person/Detail/yakdogan>),
+    Kadir Karakaya [aut,ctb] <kkarakaya@selcuk.edu.tr>
+        (<https://www.selcuk.edu.tr/Person/Detail/kkarakaya>),
+    Tenzile Erbayram [aut,ctb] <tenzile.erbayram@selcuk.edu.tr>
+        (<https://www.selcuk.edu.tr/Person/Detail/tenzile.erbayram>),
+    Ramazan Akman [aut,ctb] <ramazanakman12345@gmail.com>
+        (<https://www.researchgate.net/profile/Ramazan-Akman>)
+Maintainer: Coşkun Kuş <coskunkus@gmail.com>
+Description: This package is used to generate data with censoring schemes commonly applied in lifetime time analysis.
+License: GPL-3
+URL: https://github.com/coskunkus/censorData, https://coskunkus.github.io/censorData/
+BugReports: https://github.com/coskunkus/censorData/issues
+Imports:
+Suggests:
+    knitr,
+    rmarkdown,
+    roxygen2,
+    stats,
+    testthat (>= 3.0.0)
+VignetteBuilder: 
+    knitr
+RdMacros: 
+Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
