@@ -41,3 +41,6 @@ pcdata=function(m,r,qdistr="qunif",par=c(0,1))
 
   return(y)
 }
+devtools::check()
+rhub::check_for_cran()
+devtools::check_win_devel()
